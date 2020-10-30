@@ -1,10 +1,15 @@
 #include<iostream>
+#define ll long long
+
 using namespace std;
 
 int main()
 {
-    int a, b;
-    cin>>a>>b;
-    cout<<"Sum is : "<<a+b<<endl;
-    return 0;
+    cin.tie(NULL);
+    
+    int a, b, d;
+    cin>>a>>b>>d;
+    cout<<"Sum is : "<<b+d<<endl;
+    
+    return 40;
 }
